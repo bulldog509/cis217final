@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="homepage">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage" class="ui-btn-active ui-state-persist">Home</a></li>
+                <li><a href="#callus">Call Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <p>
+            Home to the best Pizza in the Northwest!
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+</div>
+
+<div data-role="page" id="callus">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#callus" class="ui-btn-active ui-state-persist">Call Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <p>
+            Please contact us at:
+            <a href="tel:555-555-5555" data-role="button">To Order a Pizza call</a>
+            <a href="sms://866-888-8888" data-role="button">For Customer Service call</a>
+            <a href="mailto:octoberball234@gmail.com" data-role="button">Tell us how we are doing call</a>
+
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+</div>
+
+<div data-role="page" id="menu">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#callus">Call Us</a></li>
+                <li><a href="#menu" class="ui-btn-active ui-state-persist">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h3>Pizza Crusts</h3>
+
+        <div data-product="1000" class="product">
+            <span data-name='thin'>Thin Crust</span>
+            <span data-price='9.99'>9.99</span>
+            <span class='description'>Light and Crispy</span>
+        </div>
+
+        <div data-product="1100" class="product">
+            <span data-name='pan'>Pan</span>
+            <span data-price='9.99'>9.99</span>
+            <span class='description'>Nice thick crust</span>
+        </div>
+
+        <div data-product="1200" class="product">
+            <span data-name='original'>Original</span>
+            <span data-price='9.99'>9.99</span>
+            <span class='description'>The awesome classic</span>
+        </div>
+
+        <h3>Pizza Toppings</h3>
+
+        <div data-product="2000" class="product">
+            <span data-name='pepperoni'>Pepperoni</span>
+            <span data-price='0.99'>0.99</span>
+            <span class='description'>The best classic topping</span>
+        </div>
+
+        <div data-product="2100" class="product">
+            <span data-name='sausage'>Sausage</span>
+            <span data-price='0.99'>0.99</span>
+            <span class='description'>The best sausage</span>
+        </div>
+
+        <div data-product="2200" class="product">
+            <span data-name='bacon'>Bacon</span>
+            <span data-price='1.50'>1.50</span>
+            <span class='description'>Bacon, Bacon, Bacoooon!</span>
+        </div>
+
+        <div data-product="2300" class="product">
+            <span data-name='pineapple'>Pineapple</span>
+            <span data-price='1.50'>1.50</span>
+            <span class='description'>Hawaiian style</span>
+        </div>
+
+        <div data-product="2400" class="product">
+            <span data-name='tomatoes'>Tomatoes</span>
+            <span data-price='1.50'>1.50</span>
+            <span class='description'>Yum...Tomatoes</span>
+        </div>
+
+        <div data-product="2500" class="product">
+            <span data-name='jalapenos'>Jalapenos</span>
+            <span data-price='1.50'>1.50</span>
+            <span class='description'>Spicy!</span>
+        </div>
+
+        <h3>Drinks</h3>
+
+        <div data-product="3000" class="product">
+            <span data-name='pepsi'>Pepsi</span>
+            <span data-price='2.50'>2.50</span>
+            <span class='description'>America's favorite pastime drink</span>
+        </div>
+
+        <div data-product="3100" class="product">
+            <span data-name='diet'>Diet Pepsi</span>
+            <span data-price='2.50'>2.50</span>
+            <span class='description'>Classic Diet</span>
+        </div>
+
+        <div data-product="3200" class="product">
+            <span data-name='tea'>Iced Tea</span>
+            <span data-price='2.00'>2.00</span>
+            <span class='description'>The best kind of Tea</span>
+        </div>
+
+        <div class='cartDiv'>
+
+        </div>
+
+        <div id="buyNow">
+            <p><button id="buy">Buy Now</button></p>
+        </div>
+
+    </div>
+
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+</div>
+
+<div data-role="page" id="order">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#callus">Call Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order" class="ui-btn-active ui-state-persist">Order</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+            <h3>Pizza Crusts</h3>
+
+            <div data-product="1000" class="product">
+                <span data-name='thin'>Thin Crust</span>
+                <span data-price='9.99'>9.99</span>
+                <span class='description'>Light and Crispy</span>
+            </div>
+
+            <div data-product="1100" class="product">
+                <span data-name='pan'>Pan</span>
+                <span data-price='9.99'>9.99</span>
+                <span class='description'>Nice thick crust</span>
+            </div>
+
+            <div data-product="1200" class="product">
+                <span data-name='original'>Original</span>
+                <span data-price='9.99'>9.99</span>
+                <span class='description'>The awesome classic</span>
+            </div>
+
+            <h3>Pizza Toppings</h3>
+
+            <div data-product="2000" class="product">
+                <span data-name='pepperoni'>Pepperoni</span>
+                <span data-price='0.99'>0.99</span>
+                <span class='description'>The best classic topping</span>
+            </div>
+
+            <div data-product="2100" class="product">
+                <span data-name='sausage'>Sausage</span>
+                <span data-price='0.99'>0.99</span>
+                <span class='description'>The best sausage</span>
+            </div>
+
+            <div data-product="2200" class="product">
+                <span data-name='bacon'>Bacon</span>
+                <span data-price='1.50'>1.50</span>
+                <span class='description'>Bacon, Bacon, Bacoooon!</span>
+            </div>
+
+            <div data-product="2300" class="product">
+                <span data-name='pineapple'>Pineapple</span>
+                <span data-price='1.50'>1.50</span>
+                <span class='description'>Hawaiian style</span>
+            </div>
+
+            <div data-product="2400" class="product">
+                <span data-name='tomatoes'>Tomatoes</span>
+                <span data-price='1.50'>1.50</span>
+                <span class='description'>Yum...Tomatoes</span>
+            </div>
+
+            <div data-product="2500" class="product">
+                <span data-name='jalapenos'>Jalapenos</span>
+                <span data-price='1.50'>1.50</span>
+                <span class='description'>Spicy!</span>
+            </div>
+
+            <h3>Drinks</h3>
+
+            <div data-product="3000" class="product">
+                <span data-name='pepsi'>Pepsi</span>
+                <span data-price='2.50'>2.50</span>
+                <span class='description'>America's favorite pastime drink</span>
+            </div>
+
+            <div data-product="3100" class="product">
+                <span data-name='diet'>Diet Pepsi</span>
+                <span data-price='2.50'>2.50</span>
+                <span class='description'>Classic Diet</span>
+            </div>
+
+            <div data-product="3200" class="product">
+                <span data-name='tea'>Iced Tea</span>
+                <span data-price='2.00'>2.00</span>
+                <span class='description'>The best kind of Tea</span>
+            </div>
+
+            <div>
+                <button id="saveOrder">Save Order</button>
+            </div>
+
+            <div>
+                <button id="loadOrder">Load Order</button>
+            </div>
+
+        <div class='cartDiv'>
+
+        </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+
+</div>
+
+<div data-role="page" id="location">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#callus">Call Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#location" class="ui-btn-active ui-state-persist">Location</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <p>
+            <script>
+                navigator.geolocation.getCurrentPosition(function(pos){
+                    var lat = pos.coords.latitude;
+                    var lng= pos.coords.longitude;
+                    console.log(lat + " : " + lng);
+                    $("#lat").text( lat );
+                    $("#lng").text( lng );
+
+                    var url = '<a href="http://maps.google.com/maps?daddr=Pizza+Hut,+2204+N.+Nevada,+Spokane,+WA+99207&saddr=' + lat + ',' + lng + '">Your Location</a>';
+                    $("#url").html(url);
+
+                    var map = '<iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=' + lat + ',' + lng + '&amp;daddr=Pizza+Hut,&amp;hl=en&amp;geocode=Faps1wIdaTsB-Q%3BFY6s1wIdo7IA-SGSF4-H7rV7wSl16BgaKBmeVDGSF4-H7rV7wQ&amp;aq=&amp;sll=47.6603,-117.19717&amp;sspn=0.070411,0.169086&amp;mra=ls&amp;ie=UTF8&amp;ll=47.680249,-117.377977&amp;spn=0.016997,0.037518&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=47.6724896,+-117.3597674&amp;daddr=Pizza+Hut,&amp;hl=en&amp;geocode=Faps1wIdaTsB-Q%3BFY6s1wIdo7IA-SGSF4-H7rV7wSl16BgaKBmeVDGSF4-H7rV7wQ&amp;aq=&amp;sll=47.6603,-117.19717&amp;sspn=0.070411,0.169086&amp;mra=ls&amp;ie=UTF8&amp;ll=47.680249,-117.377977&amp;spn=0.016997,0.037518&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
+                    $("#directionMap").html(map);
+                });
+            </script>
+            Latitude: <span id="lat"></span><br/>
+            Longitude: <span id="lng"></span>
+            Url: <span id="url"></span>
+
+            <div id="directionMap">
+
+            </div>
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+</div>
+
+<div data-role="page" id="aboutus">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#callus">Call Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#aboutus" class="ui-btn-active ui-state-persist">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <p>
+            This Pizza place is one of the Northwest's greatest Pizza places.  Voted #1 by over 20 magazines!
+        </p>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <i>copyright of Fuzzy Dunlap</i>
+    </div>
+</div>
+
+<script>
+    var cart = [];
+
+    function displayCart(){
+        var cartDiv = $('.cartDiv');
+        cartDiv.html("");
+        var grandTotal = 0;
+        for(var item in cart){
+            var qty = cart[item].qty;
+            var price = cart[item].price;
+            var subtotal = qty * price;
+            grandTotal += subtotal;
+            cartDiv.append( '<p>' + qty + ':  ' + cart[item].name + ' ' + '$' + price + '== ' + '$' + subtotal + '</p>' );
+        }
+        cartDiv.append('<p>Grand Total: $' + grandTotal.toFixed(2) + '</p>')
+    }
+
+    $(document).ready(function(){
+        $('div[data-product]').each( function(){
+            $(this).append('<button class="btnCart">Add to Cart</button>');
+        });
+
+        $('.btnCart').on("click", function(event){
+            var pid = $(this).parent().data("product");
+            console.log(pid);
+            if( cart[pid] ){
+                cart[pid].qty += 1;
+            } else {
+                cart[pid] = new Object();
+                cart[pid].qty = 1;
+                cart[pid].pid = pid;
+                cart[pid].name = $(this).siblings("span").data("name");
+                cart[pid].price = $(this).siblings("span").next().data("price");
+            }
+            displayCart();
+        });
+
+        $('#buy').on("click", function(event){
+            var buyUrl = "";
+            for(var item in cart){
+                buyUrl += "&pid[]=" + item + "&qty[]=" + cart[item].qty;
+            }
+            $.getJSON( 'buy.php?' + buyUrl, function(data){
+                $(".cartDiv").append(data);
+            })
+            console.log("http://cis2175.fuzzydrake.com/buy.php?" + buyUrl);
+            $("#buy").parent().hide();
+        });
+
+        $('#saveOrder').on("click", function(event){
+            var cartStr = "[";
+            for(var item in cart){
+                cartStr += JSON.stringify(cart[item]) + ",";
+            }
+            cartStr = cartStr.slice(0,-1);
+            cartStr += "]";
+            console.log(cartStr);
+            localStorage['cart'] = cartStr;
+        });
+
+        $('#loadOrder').on("click", function(){
+            cart = [];
+            var obj = JSON.parse(localStorage['cart'] );
+            for( item in obj ){
+                pid = obj[item].pid;
+                cart[ pid ] = obj[item];
+            }
+            displayCart();
+        });
+    });
+</script>
+
+</body>
+
+</html>
